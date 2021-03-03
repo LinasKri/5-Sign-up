@@ -9,7 +9,7 @@ _25 group third website project_
 
 This project is for educational porpuses only. Pull request are welcome! Thank you for your cooperation!
 
-Site published at 
+Site published at https://linaskri.github.io/5-Sign-up/
 
 
 ## Project features
