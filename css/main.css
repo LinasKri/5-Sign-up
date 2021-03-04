@@ -4,12 +4,12 @@ body * {
   padding: 0;
   vertical-align: top;
   box-sizing: border-box;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
 }
+
 body{
   background-color: cadetblue;
 }
-
 
 .container {
     display: inline-block;
@@ -21,8 +21,8 @@ body{
   .left-column {
     width: 40%;
     float: left;
-    background-color:greenyellow;
     text-transform: capitalize; 
+    background-image: url(../img/hill.jpg) ;
   }
   
   .right-column {
@@ -30,16 +30,31 @@ body{
     float: left;
     background-color: #fff;
     padding: 60px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
-  .close{
 
+  .close{
+    float: right;
+    position: relative;
+    right: -30px;
+    top: -40px;
+    font-size: 25px;
+    margin: 0;
+    padding: 5px;
+    line-height: 14px;
+    color: rgba(204, 204, 204, 0.898);
+    cursor: pointer;
+}    
   }
+
   form{
 
   }
+
   .form-row{
     margin-bottom: 40px;
   }
+
   form> .form-row{
     display: inline-block;
     width: 100%;
@@ -49,6 +64,7 @@ body{
   form> .form-row:last-of-type{
     margin-bottom: 0;
   }
+
   form> .form-row> label{
     display: inline-block;
     width: 100%;
@@ -95,14 +111,28 @@ body{
 
   form> .form-row> a{
     float: left;
-    float: left;
     padding: 5px;
     line-height: 20px;
     font-size: 16px;
-    margin-left: 15px;
-    margin-right: 15px;
-    font-weight: bold;
     text-transform: capitalize;
     text-decoration: none;
-
+    font-weight: bold;
+    color: #0d65dc;
   }
+  
+.left-column{
+
+}
+
+h1{
+
+}
+
+p{
+  
+}
+::placeholder{
+  text-transform: capitalize;
+  font-size: 16px;
+
+}
