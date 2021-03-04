@@ -9,7 +9,7 @@
   .left-column {
     width: 40%;
     float: left;
-    background-color:chartreuse;   
+    text-transform: capitalize; 
   }
   
   .right-column {
