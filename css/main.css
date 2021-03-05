@@ -13,16 +13,16 @@ body{
   background-image: url(../img/hill.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 960px 659px, cover;
+  background-size: 960px 727px, cover;
   backdrop-filter: blur(5px);
-  height: 659px;
+  height: 727px;
 }
 
 .container {
     display: inline-block;
     position:relative;
     width: 800px;
-    margin-top: 50px;
+    margin-top: 80px;
     margin-left: calc((100% - 800px)/ 2);
     
   }
