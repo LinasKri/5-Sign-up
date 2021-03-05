@@ -5,10 +5,11 @@ body * {
   vertical-align: top;
   box-sizing: border-box;
   
+  
 }
 
 body{
-  background-color: cadetblue;
+background-color:cadetblue;
 }
 
 .container {
@@ -19,12 +20,43 @@ body{
   }
   
   .left-column {
-    width: 40%;
     float: left;
+    width: 40%;
+    height: 500px;
+    margin-top: 29px;
     text-transform: capitalize; 
     background-image: url(../img/hill.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 392px 584px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  h1{
+    display: inline-block;
+    float: left;
+    width: 100%;
+    font-size: 40px;
+    color: #fff;
+    font-weight:100;
+    margin-top: 37px;
+    margin-left: 40px;
+    
   }
   
+  p{
+    display: inline-block;
+    width: 100%;
+    margin-top: 390px;
+    margin-left: 39px;
+    font-size: 15px;
+    position: ;
+  }
+  p> a{
+    color: #fff;
+  }
+  p> span{
+    color: #fff;
+  }
+ 
   .right-column {
     width: 60%;
     float: left;
@@ -44,9 +76,8 @@ body{
     line-height: 14px;
     color: rgba(204, 204, 204, 0.898);
     cursor: pointer;
-}    
-  }
-
+  }    
+  
   form{
 
   }
@@ -119,18 +150,7 @@ body{
     font-weight: bold;
     color: #0d65dc;
   }
-  
-.left-column{
-
-}
-
-h1{
-
-}
-
-p{
-  
-}
+ 
 ::placeholder{
   text-transform: capitalize;
   font-size: 16px;
