@@ -83,11 +83,13 @@ body{
     top: 0;
     right: 0;
     color: rgba(204, 204, 204, 0.898);
-    cursor: pointer;
-    
-
   }    
   
+  .close:hover{
+    cursor: pointer;
+    color:dimgrey;
+  }
+
   form{
 
   }
